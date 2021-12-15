@@ -1,0 +1,10 @@
+KW1
+UPDATE `wynik` SET `bmi_id` = '1', `data_pomiaru` = '2020-05-20', `wynik` = '15' WHERE `wynik`.`id` = 1; 
+KW2
+SELECT id, informacja, wart_min FROM `bmi`
+KW3
+SELECT wynik FROM `wynik`;
+SELECT informacja FROM `bmi`
+KW4
+SELECT `bmi`.`wart_min`, `bmi`.`wart_max`
+FROM `bmi` WHERE `informacja`= "niedowaga"
